@@ -42,8 +42,18 @@
 
 ## Study Design: MechaCar vs Competition
 * Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+    * Safety rating is important feature among consumers looking to buy a car. Crash test rating and crash preventiveness are two factors that can determine this. We will analyze crash test rating of different cars based on the roof strength. Roof strength of the car is determined using strength-to-weight ratio (SWR).
 * In your description, address the following questions:
 1) What metric or metrics are you going to test?
+    * We will be using categorical independent variable of strength-to-weight ratio(SWR) for different cars (including the new prototype 'MechaCar'), crash test rating number as dependent variable
 2) What is the null hypothesis or alternative hypothesis?
+    * Null Hypothesis: Multiple vehicle's strength-to-weight ratio (SWR) makes NO significant differences in crash test rating
+    * Alternative Hypothesis: Multiple vehicle's strength-to-weight ratio (SWR) makes significant differences in crash test rating
 3) What statistical test would you use to test the hypothesis? And why?
+    * ANOVA as we are trying to find if there is a statitical difference between the distribution means from multiple samples, and also wchich one is having better SWR.
 4) What data is needed to run the statistical test?
+    * Multiple car's SWR data from IIHS, and MechaCar' SWR from AutoRU 
+    * Multiple car's crash test rating data from NHTSA, and MechaCar's crash test rating data from AutoRU
+
+
+
