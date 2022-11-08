@@ -2,7 +2,7 @@
 ## Linear Regression to Predict MPG
 ![Linear Regression to Predict MPG](https://github.com/Meghajain84/MechaCar_Statistical_Analysis/blob/main/deliverable1.PNG)
 * **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-   * **vehicle_length** and **ground_clearance** provided a non-random amount of variance to the mpg values in the dataset.
+   * **vehicle_length(with p value as 2.60e-12 which is less than 0.05 )** and **ground_clearance(with p value as 5.21e-08 which is less than 0.05 )** provided a non-random amount of variance to the mpg values in the dataset.
    * When an intercept is statistically significant, it means that the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero. Depending on our dataset, a significant intercept could mean that the significant features (such as vehicle_length and ground_clearance) may need scaling or transforming to help improve the predictive power of the model. 
     
 * **Is the slope of the linear model considered to be zero? Why or why not?**
@@ -16,7 +16,7 @@
         m5 = coefficient of AWD = -3.411e+00 = -3.411
         mpg = (-1.040e+02) + (m1 * vehicle_length) + (m2 * vehicle_weight) + (m3 * spoiler_angle) + (m4 * ground_clearance) + (m5 * AWD)
 * **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-    * Yes, this model predicted mpg of MechaCar prototypes effectively as **Multiple R-squared value of 0.6937** is pretty good indicator of prediction. It's showing ~69% confidence.
+    * Yes, this model predicted mpg of MechaCar prototypes effectively as **Multiple R-squared value of 0.7149** is strong indicator of correct prediction. It's showing ~71% confidence.
 
 ## Summary Statistics on Suspension Coils
 ![Total](https://github.com/Meghajain84/MechaCar_Statistical_Analysis/blob/main/deliverable2_total_summary.PNG)
